@@ -1,0 +1,179 @@
+/*-----------------Body---------------------*/
+
+body {
+  background-image: url("/src/assets/img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #494848;
+}
+
+/*-----------------NavBar--------------------*/
+
+.logo {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar{
+  background-color: #ffffff;
+  color:white;
+  height: 20%;
+}
+
+/*-----------------CardsHome-------------------*/
+
+.card {
+  background-color: #1a1a1a !important; 
+  border: 1px solid #fa3737 !important; 
+  box-shadow: 0 0 10px rgb(255, 8, 0) !important;
+  color: #f0f0f0 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7) !important;
+  transform: translateY(-2px);
+}
+
+
+.card-title {
+  color: #ff070757 !important; 
+  text-shadow: 0 0 3px #ff070752;
+}
+
+.card-text {
+  color: rgba(240, 240, 240, 0.7) !important;
+}
+
+.card-body .border-secondary {
+    border-color: #333 !important;
+}
+
+
+.learn-more.btn.border-warning {
+  color: #ff0000 !important; 
+  border-color: #ffffff !important; 
+}
+.learn-more.btn.border-warning:hover {
+  background-color: #ff0000 !important;
+  color: #1a1a1a !important; 
+  box-shadow: 0 0 8px #ff0000;
+}
+
+.heart-icon {
+  background-color: transparent !important;
+  transition: all 0.3s;
+}
+
+.heart-icon .fa-regular.fa-heart {
+  color: #ff0707 !important;
+}
+.heart-icon.border-warning {
+  border-color: #fffcfc !important;
+}
+
+.heart-icon .fa-solid.fa-heart {
+  color: #ffffff !important; 
+  text-shadow: 0 0 3px #dc3545;
+}
+.heart-icon.border-danger {
+  border-color: #dc3545 !important;
+}
+
+.heart-icon:hover {
+    transform: scale(1.1);
+}
+
+.learn-more.btn.border-danger {
+  color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  background-color: transparent !important;
+  transition: all 0.3s;
+}
+
+.learn-more.btn.border-danger:hover {
+  background-color: #dc3545 !important;
+  color: #f0f0f0 !important; 
+  box-shadow: 0 0 8px #dc3545;
+}
+
+/*------------------Home------------------*/
+
+.star-wars-home {
+  background-color: rgba(0, 0, 0, 0.85); 
+  min-height: 100vh; 
+  padding-left: 5rem !important; 
+  padding-right: 5rem !important;
+  color: #f0f0f0; 
+}
+
+.section-title {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem !important;
+  border-bottom: 1px solid rgb(252, 0, 0); 
+}
+
+.section-separator {
+  height: 2px;
+  margin-top: 4rem; 
+  margin-bottom: 4rem !important; 
+  background: #3a0101; 
+  box-shadow: 0 0 15px 5px rgba(184, 62, 62, 0.6); 
+  width: 100%;
+}
+
+/*------------------CardsDetails-------------------------*/
+
+.details-container {
+  background-color: #1a1a1a !important; 
+  border: 1px solid #ff0000 !important; 
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.979) !important;
+  border-radius: 0.5rem;
+  color: #ff0a0a;
+}
+
+.details-img {
+    border: 2px solid #ff070757; 
+    box-shadow: 0 0 8px #ff0000;
+}
+
+.details-container h1.text-warning {
+    text-shadow: 0 0 5px #ff0000;
+    font-weight: 650;
+}
+
+.details-divider {
+    height: 3px;
+    background: #ff0000;
+    box-shadow: 0 0 20px 5px rgb(255, 8, 0);
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-row {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px dashed rgba(255, 255, 255, 0.1); 
+}
+
+.info-row h3 {
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.info-row span.text-warning {
+    font-weight: 500;
+    text-shadow: 0 0 2px #ff0707; 
+}
